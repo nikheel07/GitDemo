@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-12T11:56:36Z" name="Suite" finished-at="2021-01-12T11:56:36Z" duration-ms="29">
+    <groups>
+      <group name="Smoke">
+        <method signature="WebLogin.Mobile2()[pri:0, instance:com.testng.test.WebLogin@30c93896]" name="Mobile2" class="com.testng.test.WebLogin"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-01-12T11:56:36Z" name="Test" finished-at="2021-01-12T11:56:36Z" duration-ms="29">
+      <class name="com.testng.test.WebLogin">
+        <test-method signature="FirstMethod(java.lang.String, java.lang.String)[pri:0, instance:com.testng.test.WebLogin@30c93896]" started-at="2021-01-12T11:56:36Z" name="FirstMethod" finished-at="2021-01-12T11:56:36Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstMethod -->
+        <test-method signature="Mobile2()[pri:0, instance:com.testng.test.WebLogin@30c93896]" started-at="2021-01-12T11:56:36Z" name="Mobile2" finished-at="2021-01-12T11:56:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobile2 -->
+        <test-method signature="Mobile3()[pri:0, instance:com.testng.test.WebLogin@30c93896]" started-at="2021-01-12T11:56:36Z" name="Mobile3" finished-at="2021-01-12T11:56:36Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobile3 -->
+        <test-method signature="Mobilelogout(java.lang.String, java.lang.String)[pri:0, instance:com.testng.test.WebLogin@30c93896]" started-at="2021-01-12T11:56:36Z" name="Mobilelogout" data-provider="getData" finished-at="2021-01-12T11:56:36Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobilelogout -->
+        <test-method signature="Mobilelogout(java.lang.String, java.lang.String)[pri:0, instance:com.testng.test.WebLogin@30c93896]" started-at="2021-01-12T11:56:36Z" name="Mobilelogout" data-provider="getData" finished-at="2021-01-12T11:56:36Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobilelogout -->
+        <test-method signature="Mobilelogout(java.lang.String, java.lang.String)[pri:0, instance:com.testng.test.WebLogin@30c93896]" started-at="2021-01-12T11:56:36Z" name="Mobilelogout" data-provider="getData" finished-at="2021-01-12T11:56:36Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobilelogout -->
+      </class> <!-- com.testng.test.WebLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
