@@ -23,7 +23,7 @@ public void FirstMethod(String urlname,String password)
 @Test(dataProvider="getData")
 public void Mobilelogout(String uname,String pass)
 {
-	System.out.println("Mobile Logout");
+	System.out.println("Mobile Logout mmmm");
 	System.out.println(uname);
 
 	System.out.println(pass);
